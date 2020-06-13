@@ -1,4 +1,4 @@
-package com.edurekatut.modifiers;
+package com.firstprogram.modifiers;
 
 public class Square extends Shape{
 	

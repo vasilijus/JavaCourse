@@ -1,4 +1,4 @@
-package com.edurekatut;
+package com.firstprogram;
 
 public class AccessModifierTest {
 

@@ -1,4 +1,4 @@
-package com.edurekatut.modifiers;
+package com.firstprogram.modifiers;
 
 abstract public class Shape {
 	abstract float area();

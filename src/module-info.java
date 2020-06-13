@@ -1,2 +1,2 @@
-module EdurekaTut {
+module FirstProgram {
 }

@@ -20,6 +20,8 @@ public class HelloWorld {
 		helloObj.nonStaticTest();
 		
 		staticTest();
+		System.out.println(helloObj.instanceVar);
+		System.out.println(staticVar);
 		
 	}
 }

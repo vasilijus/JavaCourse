@@ -6,6 +6,6 @@ public class AccessModifierTest {
 		System.out.println("AccessModifierTest");
 		
 		HelloWorld helloObj = new HelloWorld();
-		helloObj.nonStaticTest();
+		helloObj.staticTest();
 	}
 }

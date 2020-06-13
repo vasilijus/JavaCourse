@@ -2,7 +2,9 @@ package com.edurekatut;
 
 public class HelloWorld {
 
-	public void nonStaticTest() {
+	// Sync - means only a single thread will be able to access it, if another process wants to call this method,
+	// it will have to wait.
+	private synchronized void nonStaticTest() {
 		System.out.println("Non static method");
 	}
 	public static void staticTest() {

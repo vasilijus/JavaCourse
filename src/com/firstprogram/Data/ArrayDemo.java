@@ -1,4 +1,4 @@
-package com.firstprogram;
+package com.firstprogram.Data;
 
 import java.util.Arrays;
 

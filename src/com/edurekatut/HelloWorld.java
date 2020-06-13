@@ -2,6 +2,8 @@ package com.edurekatut;
 
 public class HelloWorld {
 
+	Integer instanceVar = 10;
+	static Integer staticVar = 1;
 	// Sync - means only a single thread will be able to access it, if another process wants to call this method,
 	// it will have to wait.
 	private synchronized void nonStaticTest() {

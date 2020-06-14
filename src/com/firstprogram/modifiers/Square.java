@@ -1,21 +1,18 @@
 package com.firstprogram.modifiers;
 
-public class Square implements Shape{
+public class Square extends Shape{
 
-	float area() {
-		// TODO Auto-generated method stub
-		return 200f;
+
+	
+	public static void main(String[] args) {
+		System.out.println("Inside Square");
 	}
 	
-//	public static void main(String[] args) {
-//		System.out.println("Inside Square");
-//	}
-//	
-//	// Implements the method from the abstract class
-//	@Override
-//	float area() {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
+	// Implements the method from the abstract class
+	@Override
+	float area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

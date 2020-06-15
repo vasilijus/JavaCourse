@@ -6,6 +6,7 @@ public class ExceptionTest {
 
 //	public static void main(String [] args) {
 	public static void main(String [] args) throws Exception {
+		// throws - can have multiple exceptions | throws IOException, Exception {
 		int denominator = 0;
 		int [] intArray = { 2,4,6 };
 		try {

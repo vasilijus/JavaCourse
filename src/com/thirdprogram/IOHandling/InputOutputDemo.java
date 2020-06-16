@@ -8,13 +8,14 @@ import java.util.Scanner;
 public class InputOutputDemo {
 	
 	public static void main(String[] args) throws FileNotFoundException {
+		String path = "/home/sergio/eclipse-workspace/EdurekaTut/IOFiles/";
 		// ~/eclipse  | for some reason gave error....
-		File empInfoFile = new File("/home/sergio/eclipse-workspace/EdurekaTut/IOFiles/EmployeeInfo.txt");
+		File empInfoFile = new File(path+"EmployeeInfo.txt");
 		InputOutputDemo demo = new InputOutputDemo();
 
 		demo.writeToFile(empInfoFile);
 
-		File vehicleInfo = new File("/home/sergio/eclipse-workspace/EdurekaTut/IOFiles/VehicleInfo.txt");
+		File vehicleInfo = new File(path+"VehicleInfo.txt");
 		demo.readFromFile(vehicleInfo);
 	}
 	

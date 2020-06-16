@@ -18,7 +18,6 @@ public class FileOutputStreamDemo {
 		FileOutputStream fileOutputStream = new FileOutputStream(file);
 		fileOutputStream.write("Hello amigos, Me gusto Burittos".getBytes());
 		fileOutputStream.close();
-		System.out.println("Hello amigos, Me gusto Burittos".length());
-
-;	}
+//		System.out.println("Hello amigos, Me gusto Burittos".length());
+	}
 }

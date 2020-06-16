@@ -24,8 +24,8 @@ public class InputOutputDemo {
 		PrintWriter empInfoWriter = null;
 		try {
 			empInfoWriter = new PrintWriter(fileToWrite);
-			empInfoWriter.println("Line 1");
-			empInfoWriter.println("Line 2");
+			empInfoWriter.println("Line 123");
+			empInfoWriter.println("Line 234");
 		} catch (FileNotFoundException exception) {
 			System.out.println("Given file was not found on the local disk");
 			throw new RuntimeException(exception);
@@ -37,7 +37,7 @@ public class InputOutputDemo {
 	public void readFromFile(File fileToRead) throws FileNotFoundException {
 		Scanner scanner = new Scanner(fileToRead);
 		while( scanner.hasNext() )
-			System.out.println("Kube read frin the input file: " + scanner.nextLine());
+			System.out.println("File read from the input file: " + scanner.nextLine());
 	}
 
 }

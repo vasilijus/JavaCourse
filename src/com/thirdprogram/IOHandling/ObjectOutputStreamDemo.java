@@ -11,7 +11,7 @@ public class ObjectOutputStreamDemo {
 
 	public static void main(String [] args) throws IOException {
 		VehicleInfo vh = new VehicleInfo("AUDI", 4, 14);
-		new ObjectOutputStreamDemo().serialize(new File("/home/sergio/eclipse-workspace/EdurekaTut/IOFiles/serializeVehicleInfo.txt"), vh );
+		new ObjectOutputStreamDemo().serialize(new File("/home/sergio/eclipse-workspace/EdurekaTut/IOFiles/serializeVehicleInfo.bin"), vh );
 	}
 	
 	// need to a add a Serializable to class which we use...

@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class VehicleInfo implements Serializable {
 
-	Integer numberOfWheels;
-	Integer mileage;
-	String nameOfVehicle;
+	public Integer numberOfWheels;
+	public Integer mileage;
+	public String nameOfVehicle;
 	
 	public VehicleInfo(String nameOfVehicle, Integer numberOfWheels, Integer mileage) {
 		this.numberOfWheels = numberOfWheels;

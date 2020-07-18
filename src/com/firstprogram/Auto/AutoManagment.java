@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class AutoManagment {
 	
 	public static void main(String [] args) {
-//		Car merc = new Car();
+		Car merc = new Car();
 //		Car bmw	= new Car();
-//		merc.numOfWheels = 4;
+		merc.numOfWheels = 4;
 //
-//			System.out.println(Arrays.toString(args) );
+			System.out.println(Arrays.toString(args) );
 //
 //		Bike r1 = new Bike();
 //		Bike ducatti = new Bike();
